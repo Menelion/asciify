@@ -1,0 +1,20 @@
+h2. Asciify, version 0.1
+
+p. Asciify is a GUI app designed to recursively transform unicode file and folder names to ASCII.
+
+h3. Usage
+Just run Asciify, either browse for a folder or enter the path manually and click *Start processing* or press **Enter**. After the process finishes, you'll get a message notifying you about it.
+**Note**: For now Asciify renames existing files, so be careful when starting the process. We suggest you to copy your files first if you want the original unicode names to be saved somewhere.
+
+h3. Possible plans for future:
+* Two ways of processing files: via files renaming and via copying.
+* Providing an oportunity to turn on logging.
+* Internationalization support.
+
+h3. Changelog
+* Version 0.1: initial release.
+
+h3. Requirements to build or run from sources
+* Python 2.7.x
+* WXPython (Phoenix) 3.0.2 MSW (at least, developed and tested with this version)
+* The Unidecode library (available with @pip install unidecode@)
